@@ -1,15 +1,15 @@
 <?php
 
 return [
-    'title' => 'Users',
-    'label' => 'Users',
+    'title' => '用户管理',
+    'label' => '用户',
 
     // User prompts and messages
     'user_change' => [
-        'info' => 'User role updated.',
-        'password_updated_info' => ':email password updated.',
-        'what_is_password' => 'What is the new password?',
-        'what_is_the_email_address' => 'What is the email address?',
+        'info' => '用户角色修改完成。',
+        'password_updated_info' => '邮箱：Email 的密码已更新。',
+        'what_is_password' => '请输入新密码？',
+        'what_is_the_email_address' => '请输入邮箱地址？',
         'what_role' => '请选择该用户的角色权限？',
     ],
 ];
