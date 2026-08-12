@@ -86,6 +86,6 @@ return [
         'modality' => 'modality',
         'category' => 'category',
         'blood_type' => 'blood type',
-        'birth_date' => 'birth date',
+        'birth_date' => '出生日期',
     ],
 ];
