@@ -18,7 +18,7 @@ return [
 
     // Actions
     'test_connection' => 'Test connection',
-    'starting_bulk_data_write_to_influxdb' => 'Starting bulk data write to InfluxDB',
+    'starting_bulk_data_write_to_influxdb' => '开始批量写入历史数据至 InfluxDB',
     'sending_test_data_to_influxdb' => 'Sending test data to InfluxDB',
 
     // Test connection notifications
@@ -42,5 +42,5 @@ return [
 
     // Common labels
     'org' => 'Org',
-    'bucket' => 'Bucket',
+    'bucket' => '存储桶',
 ];
