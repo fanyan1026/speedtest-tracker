@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'Dashboard',
+    'title' => '仪表盘',
     'no_speedtests_scheduled' => 'No speedtests scheduled.',
     'next_speedtest_at' => 'Next speedtest at',
 
@@ -10,5 +10,5 @@ return [
     'statistics' => 'Statistics',
     'latest_download' => 'Latest download',
     'latest_upload' => 'Latest upload',
-    'latest_ping' => 'Latest ping',
+    'latest_ping' => '最新延迟',
 ];
