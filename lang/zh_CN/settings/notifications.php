@@ -1,66 +1,66 @@
 <?php
 
 return [
-    'title' => 'Notifications',
-    'label' => 'Notifications',
+    'title' => '通知设置',
+    'label' => '通知',
 
     // Database notifications
-    'database' => 'Database',
-    'database_description' => 'Notifications sent to this channel will show up under the 🔔 icon in the header.',
-    'test_database_channel' => 'Test database channel',
+    'database' => '站内通知',
+    'database_description' => '通过该渠道发送的通知会显示在页面顶部铃铛图标内。',
+    'test_database_channel' => '测试站内通知渠道',
 
     // Mail notifications
-    'mail' => 'Mail',
-    'recipients' => 'Recipients',
-    'test_mail_channel' => 'Test mail channel',
+    'mail' => '邮件通知',
+    'recipients' => '接收邮箱',
+    'test_mail_channel' => '测试邮件通知渠道',
 
     // Apprise notifications
-    'apprise' => 'Apprise',
-    'enable_apprise_notifications' => 'Enable Apprise notifications',
-    'apprise_server' => 'Apprise Server',
-    'apprise_server_url' => 'Apprise Server URL',
-    'apprise_server_url_helper' => 'The URL of your Apprise Server. The URL must end on /notify',
-    'apprise_verify_ssl' => 'Verify SSL',
-    'apprise_channels' => 'Notification Channels',
-    'apprise_channel_url' => 'Service URL',
-    'apprise_hint_description' => 'Apprise allows you to send notifications to 90+ services. You need to run an Apprise server and configure service URLs below.',
-    'apprise_channel_url_helper' => 'Use Apprise URL format. Examples: discord://WebhookID/Token, slack://TokenA/TokenB/TokenC',
-    'apprise_save_to_test' => 'Save your settings to test the notification.',
-    'test_apprise_channel' => 'Test Apprise',
-    'apprise_channel_url_validation_error' => 'Invalid Apprise URL. Must use Apprise format (e.g., discord://, slack://), not http:// or https://. See the Apprise documentation for more information',
+    'apprise' => 'Apprise推送',
+    'enable_apprise_notifications' => '启用 Apprise推送通知',
+    'apprise_server' => 'Apprise服务端',
+    'apprise_server_url' => 'Apprise服务地址',
+    'apprise_server_url_helper' => '你的 Apprise 服务访问地址，地址必须以 /notify 结尾',
+    'apprise_verify_ssl' => '校验SSL证书',
+    'apprise_channels' => '推送渠道列表',
+    'apprise_channel_url' => '服务链接',
+    'apprise_hint_description' => 'Apprise支持向90余种平台推送消息，你需要部署Apprise服务端，并在下方配置各平台链接。',
+    'apprise_channel_url_helper' => '遵循 Apprise 链接格式，示例：discord://WebhookID/Token、slack://TokenA/TokenB/TokenC',
+    'apprise_save_to_test' => '请先保存配置，再测试推送通知。',
+    'test_apprise_channel' => '测试Apprise推送',
+    'apprise_channel_url_validation_error' => 'Apprise 链接格式无效，必须使用对应协议前缀（如 discord://、slack://），不能直接填写 http/https 链接。详情请查阅 Apprise 官方文档',
 
     // Webhook
     'webhook' => 'Webhook',
-    'webhooks' => 'Webhooks',
-    'test_webhook_channel' => 'Test webhook channel',
-    'webhook_hint_description' => 'These are generic webhooks. For payload examples and implementation details, view the documentation. For services like Discord, Ntfy etc please use Apprise.',
+    'webhooks' => 'Webhook推送列表',
+    'test_webhook_channel' => '测试Webhook推送渠道',
+    'webhook_hint_description' => '通用Webhook接口。如需查看请求示例与接入说明请查阅文档；Discord、Ntfy等平台建议直接使用Apprise渠道。',
 
     // Common notification messages
-    'notify_on_every_speedtest_run' => 'Notify on every completed scheduled speedtest run',
-    'notify_on_every_speedtest_run_helper' => 'This will send a notification for every completed scheduled speedtest run, only for healthy or unbenchmarked tests',
-    'notify_on_threshold_failures' => 'Notify on threshold failures for scheduled speedtests',
-    'notify_on_threshold_failures_helper' => 'This will send a notification when a scheduled speedtest fails any configured thresholds',
+    'notify_on_every_speedtest_run' => '每次定时测速完成均发送通知',
+    'notify_on_every_speedtest_run_helper' => '每次定时测速结束都会推送通知，仅针对测速正常或未设置阈值的记录',
+    'notify_on_threshold_failures' => '定时测速超出阈值时发送告警通知',
+    'notify_on_threshold_failures_helper' => '当定时测速结果未达到预设阈值时触发推送告警',
 
     // Test notification messages
     'test_notifications' => [
         'database' => [
-            'ping' => 'I say: ping',
-            'pong' => 'You say: pong',
+            'ping' => '测试消息：ping',
+            'pong' => '返回消息：pong',
             'received' => '站内测试通知已收到！',
-            'sent' => 'Test database notification sent.',
+            'sent' => '站内测试通知已发送。',
         ],
         'mail' => [
             'add' => '请先添加接收邮箱！',
             'sent' => '测试邮件通知已发送。',
         ],
         'webhook' => [
-            'add' => 'Add webhook URLs!',
-            'sent' => 'Test webhook notification sent.',
-            'failed' => 'Webhook notification failed.',
-            'payload' => 'Testing webhook notification',
+            'add' => '请先填写Webhook地址！',
+            'sent' => '测试邮件通知已发送。',
+            'failed' => 'Webhook推送失败。',
+            'payload' => 'Webhook测试通知',
         ],
     ],
 
     // Helper text
-    'threshold_helper_text' => 'Threshold notifications will be sent to the /fail route in the URL.',
+    'threshold_helper_text' => '阈值告警会推送到 /fail 路由地址。',
 ];
