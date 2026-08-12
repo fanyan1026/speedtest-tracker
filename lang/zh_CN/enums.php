@@ -3,7 +3,7 @@
 return [
     // Status enum values
     'status' => [
-        'benchmarking' => 'Benchmarking',
+        'benchmarking' => '正在测速',
         'checking' => 'Checking',
         'completed' => 'Completed',
         'failed' => 'Failed',
@@ -16,6 +16,6 @@ return [
     // Service enum values
     'service' => [
         'faker' => 'Faker',
-        'ookla' => 'Ookla',
+        'ookla' => 'Ookla测速',
     ],
 ];
