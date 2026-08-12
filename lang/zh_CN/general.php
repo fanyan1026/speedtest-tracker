@@ -58,10 +58,10 @@ return [
     // Roles
     'admin' => 'Admin',
     'user' => 'User',
-    'role' => 'Role',
+    'role' => '角色权限',
 
     // Date ranges
-    'last_24h' => 'Last 24 hours',
+    'last_24h' => '最近24小时',
     'last_week' => 'Last week',
     'last_month' => 'Last month',
 
@@ -123,5 +123,5 @@ return [
     'up_to_date' => 'Up to date',
 
     // Notifications
-    'token_created' => 'Token Created',
+    'token_created' => '访问令牌创建成功',
 ];
