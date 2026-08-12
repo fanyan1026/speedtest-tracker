@@ -46,12 +46,12 @@ return [
         'database' => [
             'ping' => 'I say: ping',
             'pong' => 'You say: pong',
-            'received' => 'Test database notification received!',
+            'received' => '站内测试通知已收到！',
             'sent' => 'Test database notification sent.',
         ],
         'mail' => [
-            'add' => 'Add email recipients!',
-            'sent' => 'Test mail notification sent.',
+            'add' => '请先添加接收邮箱！',
+            'sent' => '测试邮件通知已发送。',
         ],
         'webhook' => [
             'add' => 'Add webhook URLs!',
