@@ -14,7 +14,7 @@ return [
     */
 
     'reset' => '您的密码已重置完成！',
-    'sent' => 'We have emailed your password reset link!',
+    'sent' => '密码重置链接已发送至您的邮箱！',
     'password' => '两次输入的密码必须一致，且长度至少六个字符。',
 
 ];
