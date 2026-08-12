@@ -65,14 +65,14 @@ return [
     'speedtest_failed' => 'Speedtest failed',
     'download_threshold_breached' => 'Download threshold breached!',
     'upload_threshold_breached' => 'Upload threshold breached!',
-    'ping_threshold_breached' => 'Ping threshold breached!',
+    'ping_threshold_breached' => '网络延迟超出阈值！',
 
     // Run Speedtest Action
-    'speedtest' => 'Speedtest',
+    'speedtest' => '测速',
     'select_server' => 'Select Server',
     'select_server_helper' => 'Leave empty to run the speedtest without specifying a server. Blocked servers will be skipped.',
     'manual_servers' => 'Manual servers',
     'closest_servers' => 'Closest servers',
     'run_speedtest' => 'Run Speedtest',
-    'start' => 'Start',
+    'start' => '开始',
 ];
