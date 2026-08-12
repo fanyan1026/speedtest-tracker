@@ -13,9 +13,9 @@ return [
     |
     */
 
-    'sign_in' => 'Sign in',
-    'failed' => 'These credentials do not match our records.',
-    'password' => 'The provided password is incorrect.',
+    'sign_in' => '登录',
+    'failed' => '账号或密码与系统记录不匹配。',
+    'password' => '输入的密码不正确。',
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
 
 ];
