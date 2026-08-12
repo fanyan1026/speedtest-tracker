@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'Thresholds',
+    'title' => '测速阈值',
     'label' => 'Thresholds',
 
     // Absolute thresholds
@@ -18,5 +18,5 @@ return [
     'threshold_enabled' => 'Threshold enabled',
     'threshold_download' => 'Threshold download',
     'threshold_upload' => 'Threshold upload',
-    'threshold_ping' => 'Threshold ping',
+    'threshold_ping' => '延迟阈值',
 ];
