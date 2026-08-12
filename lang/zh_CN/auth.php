@@ -16,6 +16,6 @@ return [
     'sign_in' => '登录',
     'failed' => '账号或密码与系统记录不匹配。',
     'password' => '输入的密码不正确。',
-    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+    'throttle' => '登录尝试次数过多，请等待 :seconds 秒之后重试。',
 
 ];
