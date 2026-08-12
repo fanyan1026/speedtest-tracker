@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'server_error' => 'Server Error',
+    'server_error' => '服务器错误',
     'oops_server_error' => 'Oops, server error!',
     'error_message' => 'Error message',
     'error_fetching_servers' => 'Error fetching servers',
@@ -18,6 +18,6 @@ return [
         'fail' => 'Command aborted.',
         'finished' => '✅ done!',
         'info_1' => 'This will check all results and fix the status to "completed" or "failed" based on the data.',
-        'info_2' => '📖 Read the documentation: https://docs.speedtest-tracker.dev/other/commands',
+        'info_2' => '📖 查阅官方文档：https://docs.speedtest-tracker.dev/other/commands',
     ],
 ];
