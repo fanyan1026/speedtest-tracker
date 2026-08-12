@@ -18,13 +18,13 @@ return [
 
     // Token properties
     'expires_at' => 'Expires at',
-    'expires_at_helper_text' => 'Leave empty if you don\'t want an expiration date',
-    'last_used_at' => 'Last used at',
+    'expires_at_helper_text' => '留空代表令牌永不过期',
+    'last_used_at' => '上次使用时间',
 
     // Abilities/Permissions
     'abilities' => 'Abilities',
     'read_results' => 'Read results',
     'read_results_description' => 'The token will have permission to read results and statistics.',
     'run_speedtest_description' => 'The token will have permission to run speedtest.',
-    'list_servers_description' => 'The token will have permission to list servers.',
+    'list_servers_description' => '该令牌可以获取测速服务器列表。',
 ];
