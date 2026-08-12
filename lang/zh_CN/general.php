@@ -81,11 +81,11 @@ return [
     'total' => '总计',
 
     // Units
-    'ms' => 'ms',
-    'mbps' => '',
+    'ms' => '毫秒（ms）',
+    'mbps' => '兆比特每秒（Mbps）',
 
     // Speed test metrics
-    'download' => '',
+    'download' => '下载速度',
     'upload' => '上传速度',
     'ping' => '网络延迟',
     'jitter' => '抖动值',
