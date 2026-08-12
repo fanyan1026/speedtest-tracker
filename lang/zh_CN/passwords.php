@@ -13,8 +13,8 @@ return [
     |
     */
 
-    'reset' => 'Your password has been reset!',
+    'reset' => '您的密码已重置完成！',
     'sent' => 'We have emailed your password reset link!',
-    'password' => 'The password and confirmation must match and contain at least six characters.',
+    'password' => '两次输入的密码必须一致，且长度至少六个字符。',
 
 ];
