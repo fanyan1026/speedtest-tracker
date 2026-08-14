@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'title' => '通知设置',
-    'label' => '通知',
+    'title' => '通知设置面板',
+    'label' => '通知设置',
 
     // Database notifications
     'database' => '站内通知',
@@ -16,7 +16,7 @@ return [
 
     // Apprise notifications
     'apprise' => 'Apprise推送',
-    'enable_apprise_notifications' => '启用 Apprise推送通知',
+    'enable_apprise_notifications' => '启用 Apprise推送 通知',
     'apprise_server' => 'Apprise服务端',
     'apprise_server_url' => 'Apprise服务地址',
     'apprise_server_url_helper' => '你的 Apprise 服务访问地址，地址必须以 /notify 结尾',
@@ -55,7 +55,7 @@ return [
         ],
         'webhook' => [
             'add' => '请先填写Webhook地址！',
-            'sent' => '测试邮件通知已发送。',
+            'sent' => '测试Webhook通知已发送。',
             'failed' => 'Webhook推送失败。',
             'payload' => 'Webhook测试通知',
         ],
