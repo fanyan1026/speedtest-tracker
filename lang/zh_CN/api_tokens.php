@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'title' => 'API访问令牌',
-    'label' => 'API访问令牌',
+    'title' => 'API 令牌设置面板',
+    'label' => 'API 令牌',
 
     // Token management
     'api_token' => 'API 令牌',

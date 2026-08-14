@@ -35,7 +35,7 @@ return [
     'server_location' => '服务器地区',
     'service' => '测速服务商',
     'isp' => '运营商',
-    'ip_address' => '公网IP',
+    'ip_address' => 'IP 地址',
     'scheduled' => '定时任务',
 
     // Filters

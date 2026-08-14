@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => '数据集成',
+    'title' => '数据集成设置面板',
     'label' => '数据集成',
 
     // InfluxDB v2
@@ -10,10 +10,10 @@ return [
     'influxdb_v2_enabled' => '启用',
     'influxdb_v2_url' => '服务地址',
     'influxdb_v2_url_placeholder' => 'http://你的InfluxDB服务地址',
-    'influxdb_v2_org' => '组织',
-    'influxdb_v2_bucket' => '存储桶',
+    'influxdb_v2_org' => '组织名称',
+    'influxdb_v2_bucket' => '存储桶名称',
     'influxdb_v2_bucket_placeholder' => 'speedtest-tracker',
-    'influxdb_v2_token' => '访问令牌',
+    'influxdb_v2_token' => 'Token',
     'influxdb_v2_verify_ssl' => '校验SSL证书',
 
     // Actions

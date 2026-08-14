@@ -112,7 +112,7 @@ return [
     'test' => '测试',
 
     // Common
-    'token' => '访问令牌',
+    'token' => 'Token',
 
     // Application
     'speedtest_tracker' => 'Speedtest‑Tracker',
@@ -123,5 +123,5 @@ return [
     'up_to_date' => '已是最新版本',
 
     // Notifications
-    'token_created' => '访问令牌创建成功',
+    'token_created' => 'Token 创建完成',
 ];

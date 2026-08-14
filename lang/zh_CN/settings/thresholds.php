@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => '测速阈值',
+    'title' => '阈值设置面板',
     'label' => '阈值设置',
 
     // Absolute thresholds

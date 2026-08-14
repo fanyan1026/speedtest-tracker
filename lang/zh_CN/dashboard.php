@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => '仪表盘',
+    'title' => '主页',
     'no_speedtests_scheduled' => '暂无定时测速任务。',
     'next_speedtest_at' => '下次测速时间',
 

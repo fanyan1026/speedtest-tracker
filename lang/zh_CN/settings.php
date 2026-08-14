@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => '系统设置',
+    'title' => '设置面板',
     'label' => '设置',
 
     // Common settings labels
